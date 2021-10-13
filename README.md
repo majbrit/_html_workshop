@@ -1,6 +1,6 @@
 # _html_workshop
 
-This ist a html workshop.
+This is a html workshop.
 
 Learning goals:
 - GET or POST methode
