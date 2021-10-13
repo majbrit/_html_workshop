@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html lang="en">
+<html>
+    <head>
+        <!--Icon in Tab -->
+        <link rel="icon" type="image/png" href="IconGes.png">
+        
+        <meta charset="utf-8">
+        <title></title>
+        <!--<link rel="stylesheet"
+              type="text/css"
+              href="interaktiveDatengrafik.css">-->
+    </head>
+    <body>
+
+
+        <form name="myform" action="action_page.php" method="get">
+            <label for="animal">Favourite animal: </label>
+            <input type="text" id="animal" name="animal"><br><br>
+            <label for="color">Favourite colour: </label>
+            <input type="text" id="color" name="color"><br><br>
+
+            <label for="sound">Choose a sound:</label>
+            <select id="sound" name="sound">
+                <option value="moo">Moo</option>
+                <option value="quack">Quack</option>
+                <option value="meow">Meow</option>
+            </select>
+
+            <p>Choose a landscape: </p>
+            <input type="radio" id="desert" name="landscape" value="desert">
+            <label for="desert">Desert</label><br>
+            <input type="radio" id="mountain" name="landscape" value="mountain">
+            <label for="mountain">Mountain</label><br>
+            <input type="radio" id="jungle" name="landscape" value="jungle">
+            <label for="jungle">Jungle</label><br><br>
+
+            <!--<input type="submit" value="Submit">-->
+            <!--<a href="javascript: submitform()">Submit</a>-->
+
+
+            
+
+            
+
+        </form>
+
+        <h1>Incredible Dolphin Moments | BBC Earth</h1>
+        <iframe width="420" height="315"
+            src="https://www.youtube.com/watch?v=G7L4YzGAvMA" title="Incredible Dolphin Moments | BBC Earth">
+        </iframe>
+
+        <p>Click the button to get your coordinates:</p>
+        <button onclick="getLocation()">Location</button>
+        <p id="demo"></p>
+    
+        
+        <script type="text/javascript" src="index.js"></script>
+        
+    </body>
+</html>
