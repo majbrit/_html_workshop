@@ -4,13 +4,7 @@
 /* eslint-env browser */
 
 
-/*function submitform()
-{
-  if(document.myform.onsubmit())
-  {
-    document.myform.submit();
-  }
-}*/
+
 
 
 

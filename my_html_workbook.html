@@ -7,19 +7,20 @@
         
         <meta charset="utf-8">
         <title>Workbook</title>
+        <!-- CSS -->
         <link rel="stylesheet"
               type="text/css"
               href="style.css">
     </head>
     <body>
-
-
+        <!-- Fields for users to enter data -->
         <form name="myform" action="action_page.php" method="get">
             <label for="animal">Favourite animal: </label>
             <input type="text" id="animal" name="animal"><br><br>
             <label for="color">Favourite colour: </label>
             <input type="text" id="color" name="color"><br><br>
 
+            <!-- Selection of animal sounds -->
             <label for="sound">Choose a sound:</label>
             <select id="sound" name="sound">
                 <option value="moo">Moo</option>
@@ -27,6 +28,7 @@
                 <option value="meow">Meow</option>
             </select>
 
+            <!-- radio-Buttons for landscape-->
             <p>Choose a landscape: </p>
             <input type="radio" id="desert" name="landscape" value="desert">
             <label for="desert">Desert</label><br>
@@ -35,28 +37,27 @@
             <input type="radio" id="jungle" name="landscape" value="jungle">
             <label for="jungle">Jungle</label><br><br>
 
+            <!-- Submit Button-->
             <input type="submit" value="Submit">
-            <!--<a href="javascript: submitform()">Submit</a>-->
-
-
-            
-
-            
-
+            <!--<a href="javascript: submitform()">Submit</a>--> 
         </form>
 
+        <!-- Youtube Video-->
         <h1>Incredible Dolphin Moments | BBC Earth</h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/G7L4YzGAvMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+        <!-- Location -->
         <p>Click the button to get your coordinates:</p>
         <button onclick="getLocation()">Location</button>
         <p id="demo"></p>
     
+        <!-- Drag and Drop-->
         <p>Drag the image into the rectangle:</p>
         <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <br>
         <img id="drag1" src="image/illustrator.png" draggable="true" ondragstart="drag(event)" width="300px" >
         
+        <!-- JavaScript -->
         <script type="text/javascript" src="index.js"></script>
         
     </body>
