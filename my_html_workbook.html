@@ -6,10 +6,10 @@
         <link rel="icon" type="image/png" href="IconGes.png">
         
         <meta charset="utf-8">
-        <title></title>
-        <!--<link rel="stylesheet"
+        <title>Workbook</title>
+        <link rel="stylesheet"
               type="text/css"
-              href="interaktiveDatengrafik.css">-->
+              href="style.css">
     </head>
     <body>
 
@@ -35,7 +35,7 @@
             <input type="radio" id="jungle" name="landscape" value="jungle">
             <label for="jungle">Jungle</label><br><br>
 
-            <!--<input type="submit" value="Submit">-->
+            <input type="submit" value="Submit">
             <!--<a href="javascript: submitform()">Submit</a>-->
 
 
@@ -54,6 +54,10 @@
         <button onclick="getLocation()">Location</button>
         <p id="demo"></p>
     
+        <p>Drag the image into the rectangle:</p>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <br>
+        <img id="drag1" src="image/illustrator.png" draggable="true" ondragstart="drag(event)" width="300px" >
         
         <script type="text/javascript" src="index.js"></script>
         
