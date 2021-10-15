@@ -1,10 +1,10 @@
 # _html_workshop
 
-This ist a html workshop.
+This is an html workshop.
 
 Learning goals:
 - GET or POST methode
-- <form>, attribute and element
+- \<form\>, attribute and element
 - Submit functionality
 - Show YouTube video
 - Geolocation
