@@ -1,0 +1,44 @@
+
+/* Website link */
+a {
+    font-style: italic;
+}
+
+/* title of the article */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* subtitle */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Settings for the div around the entire text */
+.whole {
+    margin: 15%;
+    margin-top: 100px;
+}
+
+/* disclaimer on top of the article */
+/* information you should note */
+/* author of the article */
+.disclaimer, .note, .author {
+    font-style: italic;
+}
+
+/* Highlight important lines of text */
+/* summary at the beginning of the artible */
+.important, .summarybeginning {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
