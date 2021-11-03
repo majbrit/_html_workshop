@@ -1,0 +1,58 @@
+/* paragraph style */
+p {
+    color: #34b4bd;
+}
+.paragraph {
+    color: #8ff8ff;
+    font-family: monospace;
+}
+
+/* div, ul, li, img*/
+
+div {
+    border: solid 1px;
+    border-color: rgba(148, 189, 189, 0.2);
+}
+li {
+    background-color: rgba(185, 221, 255, 0.5);
+}
+img {
+    border: solid 2px;
+    border-color: grey;
+    border-radius: 5px;
+    width: 40%;
+}
+#header {
+    background: linear-gradient(to bottom, black, rgb(4, 2, 126));
+}
+.but {
+    text-decoration: none;
+}
+
+/* for animation*/
+#ani {
+    width: 50px;
+    height: 50px;
+    background:white;
+    border-radius: 50%;
+    position: absolute;
+}
+#aniContainer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: #34b4bd;
+}
+#appear {
+    background:red;
+    position: absolute;
+}
+#appearContainer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: #18757c;
+}
+
+
+
