@@ -59,6 +59,7 @@ function App() {
   // add new todos
   const addTodo = (text, date) => {
     const newTodos = [...todos, { text, date }];
+    doneTodos(newTodos);
     setTodos(newTodos);
   };
 
@@ -66,6 +67,7 @@ function App() {
   const markTodo = index => {
     const newTodos = [...todos];
     newTodos[index].isDone = true;
+    doneTodos(newTodos);
     setTodos(newTodos);
   };
 
@@ -73,7 +75,20 @@ function App() {
   const removeTodo = index => {
     const newTodos = [...todos];
     newTodos.splice(index, 1);
+    doneTodos(newTodos);
     setTodos(newTodos);
+  };
+
+  // count done todos
+  const [donetodos, setdonetodos] = React.useState(0)
+  const doneTodos = (newTodos) => {
+    var done = 0;
+    for (var  i=0; i<newTodos.length; i++) {
+      if(newTodos[i].isDone) {
+        done = done +1;
+      }
+    }
+    setdonetodos(done)
   };
 
   return (
@@ -96,6 +111,7 @@ function App() {
             </Card>
           ))}
         </div>
+        {donetodos} of {todos.length} ToDos are done
       </div>
     </div>
   );
