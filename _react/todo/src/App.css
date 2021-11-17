@@ -1,0 +1,21 @@
+
+.app {
+  padding: 30px;
+  background-color: rgb(255, 134, 134);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* style of the todo */
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  background-color: rgba(241, 201, 201, 0.137);
+}
+
+/* style of the date in the todo */
+.date {
+  font-size: small;
+  color: gray;
+}
